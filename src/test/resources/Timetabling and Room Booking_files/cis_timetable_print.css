@@ -1,0 +1,75 @@
+﻿@media print {
+    header[role=banner] {
+        display: none;
+    }
+
+    #main {
+        margin: 0px;
+        padding: 0px !important;
+    }
+
+    /* copied from cis_print.css */
+    .course .panel-testimonial, .course .list-actions, .maps-and-travel .features-wrapper, .gmap-panel, .list-downloads, #content-wrapper.col-double #related .image-wrapper, .panel-nav, .course-search #col-primary #main #frm-course-search, .list-alphabetical, .panel-related, .features-wrapper #feature-related, #col-secondary, .features-wrapper .feature .lnk-feature, #markets-wrapper .market .market-title img, .btn-large, .btn-ep, blockquote, .features-wrapper .feature-title img, .video-wrapper, .btn-more, .ep .ep-nav, .ep .image-wrapper, nav, #quicklinks-wrapper, #stats-wrapper, #invisible-links, footer[role="contentinfo"], .panel-form, .breadcrumb-wrapper, .breadcrumb-wrapper, iframe {
+        display: none !important;
+    }
+
+    h1 {
+        margin: 0px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .messageSuccess {
+        border: 2px solid #009A63;
+        margin: 5px 0px 10px 0px;
+        padding: 10px;
+    }
+
+        .messageSuccess div {
+            text-align: left;
+            margin: 0px;
+        }
+
+    .messageError {
+        border: 2px solid #B5121B;
+        margin: 5px 0px 10px 0px;
+        padding: 10px;
+    }
+
+        .messageError div {
+            text-align: left;
+            margin: 0px;
+        }
+
+    .messageInformation {
+        border: 2px solid #0061C7;
+        margin: 5px 0px 10px 0px;
+        padding: 10px;
+    }
+
+        .messageInformation div {
+            text-align: left;
+            margin: 0px;
+        }
+
+    .messageWarning {
+        border: 2px solid #ecb805;
+        margin: 5px 0px 10px 0px;
+        padding: 10px;
+    }
+
+        .messageWarning div {
+            text-align: left;
+            margin: 0px;
+        }
+
+    .messageFees {
+        border: 2px solid #ecb805;
+        margin: 5px 0px 10px 0px;
+        padding: 10px;
+    }
+
+        .messageFees div {
+            text-align: left;
+            margin: 0px;
+        }
+}

@@ -1,0 +1,252 @@
+﻿@media only screen and (max-width: 320px)
+{
+	footer[role="contentinfo"] #footer-sharing li.twitter-btn
+	{
+		width: 100px;
+	}
+
+	header[role="banner"], .ie7 #sitewide
+	{
+		background-position: 24.5% bottom;
+	}
+
+	.snippet-box
+	{
+		width: 100%;
+		float: none;
+	}
+
+	#snippet-work-foundation
+	{
+		margin-top: 20px;
+		text-align: left;
+	}
+
+	.snippet-box .btn-more-list .btn-more
+	{
+		-webkit-border-radius: 100px 100px;
+		-moz-border-radius: 100px 100px;
+		-o-border-radius: 100px 100px;
+		-ms-border-radius: 100px 100px;
+		border-radius: 100px 100px;
+		background: #B5121B;
+		background: -moz-linear-gradient(100% 100% 90deg,#AA2217,#B5121B);
+		background: -webkit-gradient(linear,0% 0%,0% 100%,from(#B5121B),to(#AA2217));
+		color: white;
+		margin-top: 1em;
+		padding: 7px 12px;
+		display: inline-block;
+		font: normal 1em/1em 'Effra Medium' ,Arial,Helvetica,sans-serif;
+		cursor: pointer;
+	}
+
+	.snippet-box .btn-more-list .btn-more:hover
+	{
+		color: #F3D4D1;
+	}
+
+	.snippet-box .btn-more-list .btn-more:hover:before
+	{
+		background-image: url(/z_core/img/spm-global.png);
+		background-repeat: no-repeat;
+		background-position: -1000px -33px;
+	}
+
+	.snippet-box .btn-more-list .btn-more:before
+	{
+		content: '';
+		width: 5px;
+		height: 6px;
+		margin-right: 7px;
+		margin-top: 4px;
+		display: block;
+		float: left;
+		background-image: url(/z_core/img/spm-global.png);
+		background-repeat: no-repeat;
+		background-position: -990px -33px;
+	}
+
+	.snippet-box .btn-more-list .last-child
+	{
+		float: right;
+	}
+
+	#content-wrapper.col-double #related .image-wrapper
+	{
+		width: 100%;
+		float: none;
+		margin-right: 0;
+	}
+
+	.article-image
+	{
+		width: 100%;
+	}
+
+	.snippet-news-wrapper .article-image
+	{
+		width: auto;
+	}
+
+	.gallery-wrapper .gallery-image
+	{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.col-double #main .features-wrapper-images .feature
+	{
+		float: none;
+		width: 100%;
+		padding-right: 0 !important;
+	}
+
+	.col-double #main .features-wrapper-images .feature img
+	{
+		width: 100%;
+	}
+
+	.college .item .college-image
+	{
+		width: 43.40277777777778%;
+		margin-top: 0;
+	}
+
+	.college .item p
+	{
+		float: none;
+		width: auto;
+		overflow: hidden;
+	}
+
+	#modal #modal-inner
+	{
+		width: 288px;
+		margin: 50px 0 0 -144px;
+		top: 0;
+	}
+
+	.ie7 #modal iframe, .ie8 #modal iframe
+	{
+		width: 248px;
+	}
+
+	#modal section fieldset textarea
+	{
+		width: 75%;
+	}
+
+	.search-results table.gsc-branding
+	{
+		position: relative;
+		top: 0;
+		right: auto;
+		left: 0;
+		width: auto;
+		margin-top: 10px;
+	}
+
+	.search-results form.gsc-search-box
+	{
+		width: auto;
+	}
+
+
+	/* Style Adjustments for Mobile Stylesheet (320px) */
+
+	.article-image
+	{
+		margin-top: 1.7em !important;
+		margin-bottom: 1.7em !important;
+		max-width: 100% !important;
+		height: auto;
+		float: none;
+	}
+
+	.panel-aux.panel-fact
+	{
+		display: block;
+	}
+
+
+	blockquote.bodyquote p
+	{
+		color: #1D1D1D;
+		font-family: Arial,Helvetica,sans-serif;
+		background-image: none;
+		padding-bottom: 1em;
+		font-size: 0.9231em;
+		line-height: 1.5em;
+		margin-bottom: 0em;
+		clear: both;
+	}
+
+
+	.learn_more a
+	{
+		margin-top: 0.7em;
+		display: none !important;
+	}
+
+	p.mob-col-fix
+	{
+		clear: both !important;
+	}
+
+	p#collegelogo320
+	{
+		margin-right: 30px;
+	}
+
+
+	.ep-course .ep-nav ul li
+	{
+		display: block;
+		width: 100%;
+		color: black;
+		height: auto !important;
+		min-height: 100% !important;
+		padding: 5px 0;
+		position: relative;
+		background-color: transparent;
+		background-image: url(/template2012/image/border-dotted-horizontal-1.png);
+		color: #B5121B;
+		clear: both;
+	}
+
+	.item img
+	{
+		padding: 0;
+	}
+	#resp_bottom_nav
+	{
+		display: none;
+	}
+	#quicklinks-alt
+	{
+		display: block;
+	}
+
+	.contact-enquiry
+	{
+		width: 40%;
+	}
+	.contact-tel
+	{
+		width: 30%;
+	}
+	.contact-email
+	{
+		width: 30%;
+	}
+
+	#entry-requirements-featureboxes + .features-wrapper .feature .t15px
+	{
+		min-height: 3em;
+	}
+
+	#venue-grid-featureboxes + .features-wrapper .feature .image-grid
+	{
+		margin-top: 1em;
+	}
+}

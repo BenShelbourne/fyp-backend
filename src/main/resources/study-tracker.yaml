@@ -1,0 +1,502 @@
+openapi: 3.0.0
+info:
+  title: Lancaster University Student Tracker
+  description: Api providing required functionality for the Lancaster University student tracker
+  version: 1.0.0
+  contact:
+    email: ben@shelbourne.org
+
+paths:
+  /calendar:
+    get:
+      security:
+        - bearerAuth: []
+      summary: Returns a list of events for the optional specified rang
+      description: |-
+        Returns a list of events following this criteria:
+        No startDate and endDate will supply events fro yesterday to tomorrow
+        Supplied startDate and no endDate will supply events for the date supplied plus the next seven days
+        No startDate but end date will supply 7 days previous to the end date
+        Both startDate and endDate supplied will supply events for between the requested dates.
+      operationId: getCalendarEvents
+      parameters:
+        - name: start-date
+          in: query
+          description: The start date for the events.
+          required: false
+          schema:
+            type: string
+            format: date-time
+
+        - name: end-date
+          in: query
+          description: The end date for the events.
+          required: false
+          schema:
+            type: string
+            format: date-time
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CalendarEvent'
+    put:
+      security:
+        - bearerAuth: []
+      summary: Returns a list of events for the optional specified rang
+      description: |-
+        Returns a list of events following this criteria:
+        No startDate and endDate will supply events fro yesterday to tomorrow
+        Supplied startDate and no endDate will supply events for the date supplied plus the next seven days
+        No startDate but end date will supply 7 days previous to the end date
+        Both startDate and endDate supplied will supply events for between the requested dates.
+      operationId: putCalendarEvents
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CalendarEvent'
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CalendarEvent'
+
+    post:
+      security:
+        - bearerAuth: []
+      summary: Returns a list of events for the optional specified rang
+      description: |-
+        Returns a list of events following this criteria:
+        No startDate and endDate will supply events fro yesterday to tomorrow
+        Supplied startDate and no endDate will supply events for the date supplied plus the next seven days
+        No startDate but end date will supply 7 days previous to the end date
+        Both startDate and endDate supplied will supply events for between the requested dates.
+      operationId: postCalendarEvents
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CalendarEvent'
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CalendarEvent'
+
+  /courses:
+    get:
+      security:
+        - bearerAuth: []
+      summary: Returns a list course for a given user users.
+      description: Returns a single pet
+      operationId: getCourses
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Course'
+
+  /assessment/{assessment-progress-id}/start:
+    post:
+      security:
+        - bearerAuth: []
+      summary: Returns the assigment for the supplied course
+      description: Returns the assigment for the supplied course
+      operationId: startAssessmentCalendarEvent
+
+      parameters:
+        - name: assessment-progress-id
+          in: path
+          description: the assessment code used within the university for the assesment.
+          required: true
+          schema:
+            type: string
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CourseworkItem'
+
+  /assessment/{assessment-progress-id}/update:
+    put:
+      security:
+        - bearerAuth: []
+      summary: Returns the assigment for the supplied course
+      description: Returns the assigment for the supplied course
+      operationId: updateAssessmentProgressForAssessment
+      parameters:
+        - name: assessment-progress-id
+          in: path
+          description: ID of Assessment
+          required: true
+          schema:
+            type: string
+
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CalendarEvent'
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CalendarEvent'
+
+  /assessment/{assessment-progress-id}/complete:
+    put:
+      security:
+        - bearerAuth: []
+      summary: Returns the assigment for the supplied course
+      description: Returns the assigment for the supplied course
+      operationId: completeAssessment
+      parameters:
+        - name: assessment-progress-id
+          in: path
+          description: ID of Assessment
+          required: true
+          schema:
+            type: string
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CourseworkItem'
+
+  /assessment/{assessment-progress-id}/delete:
+    delete:
+      security:
+        - bearerAuth: []
+      summary: Returns the assigment for the supplied course
+      description: Returns the assigment for the supplied course
+      operationId: deleteAssessmentTracking
+      parameters:
+        - name: assessment-progress-id
+          in: path
+          description: ID of Assessment
+          required: true
+          schema:
+            type: string
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CourseworkItem'
+
+  /assessment/{lusi-work-id}/completed:
+    put:
+      security:
+        - bearerAuth: []
+      summary: Returns the assigment for the supplied course
+      description: Returns the assigment for the supplied course
+      operationId: assessmentFullyCompleted
+      parameters:
+        - name: lusi-work-id
+          in: path
+          description: ID of the entire coursework
+          required: true
+          schema:
+            type: string
+
+      responses:
+        '200':    # status code
+          description: A JSON array of courses studied by the supplied user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CourseworkItem'
+  /login:
+    post:
+      description: Lets a user post a new artist
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        '200':
+          description: Successfully created a new artist
+        '403':
+          description: Not Authorised.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /student:
+    get:
+      security:
+        - bearerAuth: []
+      summary: Student Profile
+      description: The User Profile endpoint returns information about the student that has authorised with the application.
+      tags:
+        - User
+      responses:
+        200:
+          description: Profile information for a student
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Student"
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    basicAuth:
+      type: http
+      scheme: basic
+
+  schemas:
+    UserLogin:
+      properties:
+        username:
+          type: string
+        password:
+          type: string
+
+    Course:
+      properties:
+        lusiYearId:
+          type: string
+          example: "000119"
+        lusiCourseId:
+          type: string
+          example:
+            "016876"
+        lusiCohortId:
+          type: string
+          example:
+            "1"
+        name:
+          type: string
+          example:
+            "SCC.203: Computer Networks"
+        startDate:
+          type: string
+          format: date-time
+          example:
+            "2020-01-13T00:00:00"
+        endDate:
+          type: string
+          format: date-time
+          example:
+            "2020-04-24T00:00:00"
+        coursework:
+          type: array
+          items:
+            $ref: "#/components/schemas/CourseworkItem"
+      required:
+        - lusiYearId
+        - lusiCourseId
+        - lusiCohortId
+        - name
+
+    CalendarEvent:
+      properties:
+        id:
+          type: string
+        username:
+          type: string
+        title:
+          type: string
+          example:  "SCC.203: Computer Networks"
+        start:
+          type: string
+          format: date-time
+          example:
+            "2020-01-31T22:00:00"
+        end:
+          type: string
+          format: date-time
+          example:
+            "2020-02-28T09:30:00"
+        plannedStart:
+          type: string
+          format: date-time
+          example:
+            "2020-01-31T22:00:00"
+        plannedEnd:
+          type: string
+          format: date-time
+          example:
+            "2020-02-28T09:30:00"
+        location:
+          type: string
+        eventType:
+          $ref: "#/components/schemas/CalendarEventType"
+        eventStatus:
+          $ref: "#/components/schemas/CalendarEventStatus"
+        lusiWorkId:
+          type: string
+          example: "41497"
+        resource:
+          type: string
+          example:
+            "https://www.example.com"
+        note:
+          type: string
+          example:
+            "Planning on writing up findings."
+        plannedTimeInSeconds:
+          type: integer
+          format: int64
+          example: 2000
+        actualTimeInSeconds:
+          type: integer
+          format: int64
+          example: 400
+        completionPercentByTimeInSeconds:
+          type: integer
+          example: 20
+      required:
+        - title
+        - start
+        - end
+        - eventStatus
+        - eventType
+
+    Student:
+      properties:
+        id:
+          type: string
+        first_name:
+          type: string
+          description: First name of the Student.
+        last_name:
+          type: string
+          description: Last name of the Student.
+        email:
+          type: string
+          description: Email address of the Student.
+        picture:
+          type: string
+          description: Image URL of the Student.
+
+    CalendarEventType:
+      type: string
+      enum:
+        - LECTURE
+        - COURSEWORK
+        - PRACTICAL
+        - WORKSHOP
+        - PRESENTATION (ASSESSED)
+        - COURSEWORK_TRACKING
+
+    CalendarEventStatus:
+      type: string
+      enum:
+        - READ_ONLY
+        - TODO
+        - IN_PROGRESS
+        - COMPLETED
+        - NOT_DONE
+
+    AssessmentStatus:
+      type: string
+      enum:
+        - TODO
+        - IN_PROGRESS
+        - TRACKING_COMPLETE
+        - COMPLETED
+
+    CourseworkItem:
+      properties:
+        lusiWorkId:
+          type: string
+          example: "41497"
+        name:
+          type: string
+          example: "Network Configuration and Testing"
+
+        dueDate:
+          type: string
+          format: date-time
+          example: "2020-03-13T16:00:00"
+
+        isElective:
+          example: false
+        isSubmittedMoodle:
+          example: false
+        isSubmittedLusi:
+          example: false
+        hasTurnItIn:
+          example: false
+        moodleUrl:
+          type: string
+        submissions:
+          type: string
+        graded:
+          type: integer
+          example: 0
+        tracking:
+          type: array
+          items:
+            $ref: "#/components/schemas/CalendarEvent"
+        completionPercent:
+          type: integer
+        status:
+          $ref: "#/components/schemas/AssessmentStatus"
+        plannedTimeInSeconds:
+          type: integer
+          format: int64
+          example: 2400
+        actualTimeInSeconds:
+          type: integer
+          format: int64
+          example: 2400
+        completionPercentByTimeInSeconds:
+          type: integer
+          example: 46
+
+    Error:
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
+        fields:
+          type: string

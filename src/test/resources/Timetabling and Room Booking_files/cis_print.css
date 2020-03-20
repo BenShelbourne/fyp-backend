@@ -1,0 +1,713 @@
+﻿/**
+ * Print styles.
+ *
+ * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
+ */
+
+
+@media print
+{
+	*
+	{
+		background: transparent !important;
+		color: black !important;
+		text-shadow: none !important;
+		filter: none !important;
+		position: static !important;
+		float: none !important;
+		top: auto !important;
+		left: auto !important;
+		width: auto !important;
+		height: auto !important;
+		min-height: 0 !important;
+		min-width: 0 !important;
+		text-align: left !important;
+		-ms-filter: none !important;
+	}
+	/* Black prints faster: sanbeiji.com/archives/953 */
+	a, a:visited
+	{
+		color: #444 !important;
+		text-decoration: underline !important;
+		padding: 0 !important;
+		border: none;
+	}
+	a[href]:after
+	{
+		content: " (" attr(href) ")";
+	}
+	abbr[title]:after
+	{
+		content: " (" attr(title) ")";
+	}
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after
+	{
+		content: "";
+	}
+	/* Don't show links for images, or javascript/internal links */
+	pre, blockquote
+	{
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead
+	{
+		display: table-header-group;
+	}
+	/* css-discuss.incutio.com/wiki/Printing_Tables */
+	tr, img
+	{
+		page-break-inside: avoid;
+	}
+	/*@page { margin: 0.5cm; }*/
+	p, h2, h3
+	{
+		orphans: 3;
+		widows: 3;
+	}
+	h2, h3
+	{
+		page-break-after: avoid;
+	}
+	header[role="banner"]
+	{
+		margin-bottom: 0;
+	}
+	#col-primary
+	{
+		width: 100%;
+		float: none;
+		left: 0;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	#col-primary #content-wrapper
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.btn-arrow
+	{
+		padding: 0;
+	}
+	.btn-arrow::before
+	{
+		width: 0;
+		height: 0;
+		margin: 0;
+		content: none;
+	}
+	.ep > div
+	{
+		position: relative !important;
+		top: 0;
+		left: 0;
+		min-height: 100%;
+	}
+	.ep-carousel-items
+	{
+		width: 100%;
+		overflow: visible;
+	}
+	.ep-carousel .ep-carousel-items .item
+	{
+		float: none !important;
+		position: relative !important;
+	}
+	.ep .headline-panel
+	{
+		width: 100% !important;
+		position: relative !important;
+		padding: 0 !important;
+		margin-top: 1.5em;
+	}
+	.ep-basic .ep-wrapper, .ep-basic footer
+	{
+		width: 100%;
+		padding: 0;
+	}
+	.features-wrapper .feature .t16px
+	{
+		position: relative;
+		bottom: 0;
+		margin-top: 1.5em;
+	}
+	.features-wrapper .feature-title .t16px a span
+	{
+		width: 100%;
+		position: relative;
+		padding: 0;
+	}
+	.study .features-wrapper .feature, .features-wrapper .feature:nth-child(n+4)
+	{
+		border-top: 0;
+	}
+	.col-testimonial
+	{
+		width: 100%;
+		clear: none;
+		margin: 0;
+		float: none;
+	}
+	.standard #related .panel-aux, .standard-wide .panel-aux, .features-wrapper .panel-aux
+	{
+		width: 100%;
+		float: none;
+		padding: 0;
+		min-height: 100%;
+	}
+	.lnk-facebook
+	{
+		padding: 0;
+	}
+	.lnk-facebook p
+	{
+		padding: 0;
+	}
+	#markets-wrapper .market .market-title .t17px, #markets-wrapper .market .market-title .t17px a, #markets-wrapper .market .market-title .t17px a span
+	{
+		position: relative;
+		padding: 0;
+		width: 100%;
+	}
+	#markets-wrapper .market .market-title .t17px
+	{
+		margin-top: 1.5em;
+	}
+	.market .features-wrapper
+	{
+		margin-top: inherit;
+	}
+	p.separator, div.separator, .detail
+	{
+		border: 0;
+		padding-bottom: 0;
+	}
+	.gallery-wrapper span
+	{
+		padding: 0;
+	}
+	.college .item
+	{
+		border-bottom: 0;
+	}
+	#content-wrapper #main h2 a
+	{
+		padding-left: 0;
+		margin-left: 0;
+	}
+	h2.visuallyhidden, h1.visuallyhidden
+	{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		overflow: visible;
+		color: black;
+		visibility: visible;
+		display: block;
+	}
+	#contact-details-wrapper .contact-type h2
+	{
+		padding-left: 0;
+	}
+	#contact-details-wrapper .contact-details
+	{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.contact .features-wrapper .feature
+	{
+		border-top: 0;
+	}
+	.course .wrapper-course-overview, .course .wrapper-course-entry-requirements, .course .wrapper-course-financial-support, .course .wrapper-course-study-abroad, .course .wrapper-course-related-courses, .course .wrapper-course-modules, .course .wrapper-course-entry-criteria, .course .wrapper-course-careers, .course .wrapper-course-studying, .course .wrapper-course-funding
+	{
+		display: block;
+		visibility: visible;
+		margin-top: 2em;
+	}
+	.course .wrapper-course-overview
+	{
+		margin-top: 0;
+	}
+	.course #content-wrapper.col-double #related
+	{
+		display: block;
+		visibility: visible;
+	}
+	.course .panel-testimonial, .course .list-actions, .maps-and-travel .features-wrapper, .gmap-panel, .list-downloads, #content-wrapper.col-double #related .image-wrapper, .panel-nav, .course-search #col-primary #main #frm-course-search, .list-alphabetical, .panel-related, .features-wrapper #feature-related, #col-secondary, .features-wrapper .feature .lnk-feature, #markets-wrapper .market .market-title img, .btn-large, .btn-ep, blockquote, .features-wrapper .feature-title img, .video-wrapper, .btn-more, .ep .ep-nav, .ep .image-wrapper, nav, #quicklinks-wrapper, #stats-wrapper, #invisible-links, footer[role="contentinfo"], .panel-form, .breadcrumb-wrapper, .breadcrumb-wrapper, iframe
+	{
+		display: none !important;
+	}
+	/* Add to this list to remove elements from a printed page */
+}
+
+@media print
+{
+	*
+	{
+		background: transparent !important;
+		color: black !important;
+		text-shadow: none !important;
+		filter: none !important;
+		position: static !important;
+		float: none !important;
+		top: auto !important;
+		left: auto !important;
+		width: auto !important;
+		height: auto !important;
+		min-height: 0 !important;
+		min-width: 0 !important;
+		text-align: left !important;
+		-ms-filter: none !important;
+	}
+	a, a:visited
+	{
+		color: #444 !important;
+		text-decoration: underline !important;
+		padding: 0 !important;
+		border: none;
+	}
+	a[href]:after
+	{
+		content: " (" attr(href) ")";
+	}
+	abbr[title]:after
+	{
+		content: " (" attr(title) ")";
+	}
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after
+	{
+		content: "";
+	}
+	pre, blockquote
+	{
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead
+	{
+		display: table-header-group;
+	}
+	tr, img
+	{
+		page-break-inside: avoid;
+	}
+	/*@page  {
+				margin: 0.5cm; 
+			}*/
+	p, h2, h3
+	{
+		orphans: 3;
+		widows: 3;
+	}
+	h2, h3
+	{
+		page-break-after: avoid;
+	}
+	header[role="banner"]
+	{
+		margin-bottom: 0;
+	}
+	#col-primary
+	{
+		width: 100%;
+		float: none;
+		left: 0;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	#col-primary #content-wrapper
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.btn-arrow
+	{
+		padding: 0;
+	}
+	.btn-arrow::before
+	{
+		width: 0;
+		height: 0;
+		margin: 0;
+		content: none;
+	}
+	.ep > div
+	{
+		position: relative !important;
+		top: 0;
+		left: 0;
+		min-height: 100%;
+	}
+	.ep-carousel-items
+	{
+		width: 100%;
+		overflow: visible;
+	}
+	.ep-carousel .ep-carousel-items .item
+	{
+		float: none !important;
+		position: relative !important;
+	}
+	.ep .headline-panel
+	{
+		width: 100% !important;
+		position: relative !important;
+		padding: 0 !important;
+		margin-top: 1.5em;
+	}
+	.ep-basic .ep-wrapper, .ep-basic footer
+	{
+		width: 100%;
+		padding: 0;
+	}
+	.features-wrapper .feature .t16px
+	{
+		position: relative;
+		bottom: 0;
+		margin-top: 1.5em;
+	}
+	.features-wrapper .feature-title .t16px a span
+	{
+		width: 100%;
+		position: relative;
+		padding: 0;
+	}
+	.study .features-wrapper .feature, .features-wrapper .feature:nth-child(n+4)
+	{
+		border-top: 0;
+	}
+	.col-testimonial
+	{
+		width: 100%;
+		clear: none;
+		margin: 0;
+		float: none;
+	}
+	.standard #related .panel-aux, .standard-wide .panel-aux, .features-wrapper .panel-aux
+	{
+		width: 100%;
+		float: none;
+		padding: 0;
+		min-height: 100%;
+	}
+	.lnk-facebook
+	{
+		padding: 0;
+	}
+	.lnk-facebook p
+	{
+		padding: 0;
+	}
+	#markets-wrapper .market .market-title .t17px, #markets-wrapper .market .market-title .t17px a, #markets-wrapper .market .market-title .t17px a span
+	{
+		position: relative;
+		padding: 0;
+		width: 100%;
+	}
+	#markets-wrapper .market .market-title .t17px
+	{
+		margin-top: 1.5em;
+	}
+	.market .features-wrapper
+	{
+		margin-top: inherit;
+	}
+	p.separator, div.separator, .detail
+	{
+		border: 0;
+		padding-bottom: 0;
+	}
+	.gallery-wrapper span
+	{
+		padding: 0;
+	}
+	.college .item
+	{
+		border-bottom: 0;
+	}
+	#content-wrapper #main h2 a
+	{
+		padding-left: 0;
+		margin-left: 0;
+	}
+	h2.visuallyhidden, h1.visuallyhidden
+	{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		overflow: visible;
+		color: black;
+		visibility: visible;
+		display: block;
+	}
+	#contact-details-wrapper .contact-type h2
+	{
+		padding-left: 0;
+	}
+	#contact-details-wrapper .contact-details
+	{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.contact .features-wrapper .feature
+	{
+		border-top: 0;
+	}
+	.course .wrapper-course-overview, .course .wrapper-course-entry-requirements, .course .wrapper-course-financial-support, .course .wrapper-course-study-abroad, .course .wrapper-course-related-courses
+	{
+		display: block;
+		visibility: visible;
+		margin-top: 2em;
+	}
+	.course .wrapper-course-overview
+	{
+		margin-top: 0;
+	}
+	.course #content-wrapper.col-double #related
+	{
+		display: block;
+		visibility: visible;
+	}
+	.course .panel-testimonial, .course .list-actions, .maps-and-travel .features-wrapper, .gmap-panel, .list-downloads, #content-wrapper.col-double #related .image-wrapper, .panel-nav, .course-search #col-primary #main #frm-course-search, .list-alphabetical, .panel-related, .features-wrapper #feature-related, #col-secondary, .features-wrapper .feature .lnk-feature, #markets-wrapper .market .market-title img, .btn-large, .btn-ep, blockquote, .features-wrapper .feature-title img, .video-wrapper, .btn-more, .ep .ep-nav, .ep .image-wrapper, nav, #quicklinks-wrapper, #stats-wrapper, #invisible-links, footer[role="contentinfo"], .panel-form, .breadcrumb-wrapper, .breadcrumb-wrapper, iframe
+	{
+		display: none !important;
+	}
+}
+
+
+@media print
+{
+
+
+	*
+	{
+		background: transparent !important;
+		color: black !important;
+		text-shadow: none !important;
+		filter: none !important;
+		position: static !important;
+		float: none !important;
+		top: auto !important;
+		left: auto !important;
+		width: auto !important;
+		height: auto !important;
+		min-height: 0 !important;
+		min-width: 0 !important;
+		text-align: left !important;
+		-ms-filter: none !important;
+	}
+	a, a:visited
+	{
+		color: #444 !important;
+		text-decoration: underline !important;
+		padding: 0 !important;
+		border: none;
+	}
+	a[href]:after
+	{
+		content: " (" attr(href) ")";
+	}
+	abbr[title]:after
+	{
+		content: " (" attr(title) ")";
+	}
+	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after
+	{
+		content: "";
+	}
+	pre, blockquote
+	{
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead
+	{
+		display: table-header-group;
+	}
+	tr, img
+	{
+		page-break-inside: avoid;
+	}
+	/*@page  {
+			margin: 0.5cm; 
+		}*/
+	p, h2, h3
+	{
+		orphans: 3;
+		widows: 3;
+	}
+	h2, h3
+	{
+		page-break-after: avoid;
+	}
+	header[role="banner"]
+	{
+		margin-bottom: 0;
+	}
+	#col-primary
+	{
+		width: 100%;
+		float: none;
+		left: 0;
+		margin-left: 0;
+		padding-top: 0;
+	}
+	#col-primary #content-wrapper
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.btn-arrow
+	{
+		padding: 0;
+	}
+	.btn-arrow::before
+	{
+		width: 0;
+		height: 0;
+		margin: 0;
+		content: none;
+	}
+	.ep > div
+	{
+		position: relative !important;
+		top: 0;
+		left: 0;
+		min-height: 100%;
+	}
+	.ep-carousel-items
+	{
+		width: 100%;
+		overflow: visible;
+	}
+	.ep-carousel .ep-carousel-items .item
+	{
+		float: none !important;
+		position: relative !important;
+	}
+	.ep .headline-panel
+	{
+		width: 100% !important;
+		position: relative !important;
+		padding: 0 !important;
+		margin-top: 1.5em;
+	}
+	.ep-basic .ep-wrapper, .ep-basic footer
+	{
+		width: 100%;
+		padding: 0;
+	}
+	.features-wrapper .feature .t16px
+	{
+		position: relative;
+		bottom: 0;
+		margin-top: 1.5em;
+	}
+	.features-wrapper .feature-title .t16px a span
+	{
+		width: 100%;
+		position: relative;
+		padding: 0;
+	}
+	.study .features-wrapper .feature, .features-wrapper .feature:nth-child(n+4)
+	{
+		border-top: 0;
+	}
+	.col-testimonial
+	{
+		width: 100%;
+		clear: none;
+		margin: 0;
+		float: none;
+	}
+	.standard #related .panel-aux, .standard-wide .panel-aux, .features-wrapper .panel-aux
+	{
+		width: 100%;
+		float: none;
+		padding: 0;
+		min-height: 100%;
+	}
+	.lnk-facebook
+	{
+		padding: 0;
+	}
+	.lnk-facebook p
+	{
+		padding: 0;
+	}
+	#markets-wrapper .market .market-title .t17px, #markets-wrapper .market .market-title .t17px a, #markets-wrapper .market .market-title .t17px a span
+	{
+		position: relative;
+		padding: 0;
+		width: 100%;
+	}
+	#markets-wrapper .market .market-title .t17px
+	{
+		margin-top: 1.5em;
+	}
+	.market .features-wrapper
+	{
+		margin-top: inherit;
+	}
+	p.separator, div.separator, .detail
+	{
+		border: 0;
+		padding-bottom: 0;
+	}
+	.gallery-wrapper span
+	{
+		padding: 0;
+	}
+	.college .item
+	{
+		border-bottom: 0;
+	}
+	#content-wrapper #main h2 a
+	{
+		padding-left: 0;
+		margin-left: 0;
+	}
+	h2.visuallyhidden, h1.visuallyhidden
+	{
+		position: relative;
+		height: 100%;
+		width: 100%;
+		overflow: visible;
+		color: black;
+		visibility: visible;
+		display: block;
+	}
+	#contact-details-wrapper .contact-type h2
+	{
+		padding-left: 0;
+	}
+	#contact-details-wrapper .contact-details
+	{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.contact .features-wrapper .feature
+	{
+		border-top: 0;
+	}
+	.course .wrapper-course-overview, .course .wrapper-course-entry-requirements, .course .wrapper-course-financial-support, .course .wrapper-course-study-abroad, .course .wrapper-course-related-courses
+	{
+		display: block;
+		visibility: visible;
+		margin-top: 2em;
+	}
+	.course .wrapper-course-overview
+	{
+		margin-top: 0;
+	}
+	.course #content-wrapper.col-double #related
+	{
+		display: block;
+		visibility: visible;
+	}
+	.course .panel-testimonial, .course .list-actions, .maps-and-travel .features-wrapper, .gmap-panel, .list-downloads, #content-wrapper.col-double #related .image-wrapper, .panel-nav, .course-search #col-primary #main #frm-course-search, .list-alphabetical, .panel-related, .features-wrapper #feature-related, #col-secondary, .features-wrapper .feature .lnk-feature, #markets-wrapper .market .market-title img, .btn-large, .btn-ep, blockquote, .features-wrapper .feature-title img, .video-wrapper, .btn-more, .ep .ep-nav, .ep .image-wrapper, nav, #quicklinks-wrapper, #stats-wrapper, #invisible-links, footer[role="contentinfo"], .panel-form, .breadcrumb-wrapper, .breadcrumb-wrapper, iframe
+	{
+		display: none !important;
+	}
+}

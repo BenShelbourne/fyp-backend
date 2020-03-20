@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <springProfile name="local">
+    <appender name="Console"
+              class="ch.qos.logback.core.ConsoleAppender">
+      <layout class="ch.qos.logback.classic.PatternLayout">
+        <Pattern>%black(%date{"yyyy-MM-dd HH:mm:ss.SSS", "Europe/London"}) %highlight(%-5level) [%blue(%t)] %yellow(%logger{36}@%method:%line) - %msg%n%throwable</Pattern>
+      </layout>
+    </appender>
+
+    <!-- LOG everything at INFO level -->
+    <root level="info">
+      <appender-ref ref="Console"/>
+    </root>
+
+    <logger name="org.shelbourne.ben" level="debug" additivity="false">
+      <appender-ref ref="Console"/>
+    </logger>
+  </springProfile>
+
+  <springProfile name="!local">
+
+    <appender name="Console"
+        class="ch.qos.logback.core.ConsoleAppender">
+      <layout class="ch.qos.logback.classic.PatternLayout">
+        <pattern>[%date{"yyyy-MM-dd HH:mm:ss.SSSXXX", "Europe/London"}] [${HOSTNAME}] [%thread] %level %logger{36}@%method:%line - %msg%n</pattern>
+      </layout>
+    </appender>
+
+    <root level="warn">
+      <appender-ref ref="Console"/>
+    </root>
+
+    <logger name="org.shelbourne.ben" level="debug" additivity="false">
+      <appender-ref ref="Console"/>
+    </logger>
+
+    <logger name="org.springframework.test" level="error" additivity="false">
+      <appender-ref ref="Console"/>
+    </logger>
+
+    <logger name="org.springframework" level="warn" additivity="false">
+      <appender-ref ref="Console"/>
+    </logger>
+  </springProfile>
+
+</configuration>

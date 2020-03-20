@@ -1,0 +1,1329 @@
+{
+  "serviceStatus": [
+    {
+      "id": "sr-modules",
+      "name": "Student Records",
+      "status": 200,
+      "message": null,
+      "lastCachedUtc": "2020-01-25T10:57:25.8251155Z"
+    },
+    {
+      "id": "moodle",
+      "name": "Learning Spaces",
+      "status": 200,
+      "message": null,
+      "lastCachedUtc": "2020-01-25T11:17:32.3350271Z"
+    }
+  ],
+  "years": [
+    {
+      "id": "000117",
+      "text": "17/18"
+    },
+    {
+      "id": "000118",
+      "text": "18/19"
+    },
+    {
+      "id": "000119",
+      "text": "19/20"
+    },
+    {
+      "id": "000120",
+      "text": "20/21"
+    },
+    {
+      "id": "000121",
+      "text": "21/22"
+    }
+  ],
+  "sections": [
+    {
+      "name": "Your Programme of Study Spaces",
+      "items": [
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "19/20: Staff-Student Committee",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "19/20: Staff-Student Committee",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=29482",
+              "activityId": 29482,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        }
+      ],
+      "key": "programme"
+    },
+    {
+      "name": "Your Course Modules for 19/20",
+      "items": [
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016876",
+          "lusiCohortId": 1,
+          "name": "SCC.203: Computer Networks",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2020-01-13T00:00:00",
+            "endDate": "2020-04-24T00:00:00",
+            "filterEndDate": "2020-05-15T00:00:00",
+            "filterStartDate": "2020-01-06T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016876"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016876#016876"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "41496",
+                  "name": "Network Application Development",
+                  "dueDate": "2020-02-21T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "41497",
+                  "name": "Network Configuration and Testing",
+                  "dueDate": "2020-03-13T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.203: Computer Networks [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=29279",
+              "activityId": 29279,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 2nd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28324",
+              "activityId": 28324,
+              "priority": 6,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016885",
+          "lusiCohortId": 1,
+          "name": "SCC.300: Third Year Project",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2019-10-07T00:00:00",
+            "endDate": "2020-03-20T00:00:00",
+            "filterEndDate": "2020-04-10T00:00:00",
+            "filterStartDate": "2019-09-30T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016885"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016885#016885"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "41489",
+                  "name": "Third Year Project",
+                  "dueDate": "2020-03-20T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.300: Third Year Project [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=29208",
+              "activityId": 29208,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016886",
+          "lusiCohortId": 1,
+          "name": "SCC.306: Internet Applications Engineering",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2019-10-07T00:00:00",
+            "endDate": "2020-04-24T00:00:00",
+            "filterEndDate": "2020-05-15T00:00:00",
+            "filterStartDate": "2019-09-30T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016886"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016886#016886"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "41500",
+                  "name": "Practical Element 1",
+                  "dueDate": "2019-11-01T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "27929",
+                  "name": "Quiz A",
+                  "dueDate": "2019-11-04T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "41501",
+                  "name": "Practical Element 2",
+                  "dueDate": "2019-11-29T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "27930",
+                  "name": "Quiz B",
+                  "dueDate": "2019-12-02T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.306: Internet Applications Engineering [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=29234",
+              "activityId": 29234,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016887",
+          "lusiCohortId": 1,
+          "name": "SCC.311: Distributed Systems",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2019-10-07T00:00:00",
+            "endDate": "2019-12-13T00:00:00",
+            "filterEndDate": "2020-01-03T00:00:00",
+            "filterStartDate": "2019-09-30T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016887"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016887#016887"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "27932",
+                  "name": "Secure ReSTful server",
+                  "dueDate": "2019-10-25T17:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "27933",
+                  "name": "Basic Auctioning Systems",
+                  "dueDate": "2019-11-15T18:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "27934",
+                  "name": "Advanced Auctioning Systems",
+                  "dueDate": "2019-12-06T18:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.311: Distributed Systems [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=29235",
+              "activityId": 29235,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016888",
+          "lusiCohortId": 1,
+          "name": "SCC.312: Languages and Compilation",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2020-01-13T00:00:00",
+            "endDate": "2020-03-20T00:00:00",
+            "filterEndDate": "2020-04-10T00:00:00",
+            "filterStartDate": "2020-01-06T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016888"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016888#016888"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "27936",
+                  "name": "Languages Coursework",
+                  "dueDate": "2020-02-14T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "27938",
+                  "name": "Compiler Coursework",
+                  "dueDate": "2020-03-13T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.312: Languages and Compilation [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=27637",
+              "activityId": 27637,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016894",
+          "lusiCohortId": 1,
+          "name": "SCC.360: Computer Science Seminars",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2020-01-13T00:00:00",
+            "endDate": "2020-03-20T00:00:00",
+            "filterEndDate": "2020-04-10T00:00:00",
+            "filterStartDate": "2020-01-06T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016894"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016894#016894"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "41531",
+                  "name": "CW1 Scoping Study",
+                  "dueDate": "2020-01-27T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "41532",
+                  "name": "CW2 Report Draft",
+                  "dueDate": "2020-02-10T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "41533",
+                  "name": "CW3 Presentation",
+                  "dueDate": "2020-02-24T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "41534",
+                  "name": "CW4 Final report",
+                  "dueDate": "2020-03-13T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.360: Computer Science Seminars [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=29237",
+              "activityId": 29237,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "016895",
+          "lusiCohortId": 1,
+          "name": "SCC.361: Artificial Intelligence",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2019-10-07T00:00:00",
+            "endDate": "2019-12-13T00:00:00",
+            "filterEndDate": "2020-01-03T00:00:00",
+            "filterStartDate": "2019-09-30T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=016895"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M016895#016895"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "41526",
+                  "name": "AI Coursework 1",
+                  "dueDate": "2019-11-11T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "41527",
+                  "name": "AI Coursework 2",
+                  "dueDate": "2019-12-13T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": true,
+                  "isSubmittedLusi": true,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.361: Artificial Intelligence [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28319",
+              "activityId": 28319,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": "000119",
+          "lusiCourseId": "015352",
+          "lusiCohortId": 1,
+          "name": "SCC.363: Security and Risk",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": {
+            "startDate": "2019-10-07T00:00:00",
+            "endDate": "2020-04-24T00:00:00",
+            "filterEndDate": "2020-05-15T00:00:00",
+            "filterStartDate": "2019-09-30T00:00:00",
+            "externalLinks": [
+              {
+                "text": "Course Handbook",
+                "url": "http://www.lusi.lancaster.ac.uk/CoursesHandbook/ModuleDetails/ModuleDetail?yearId=000119&courseId=015352"
+              },
+              {
+                "text": "Interactive Transcript",
+                "url": "https://mylusi.lancaster.ac.uk/AcademicMarks/?i=M015352#015352"
+              },
+              {
+                "text": "Past papers",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/past-papers/"
+              },
+              {
+                "text": "Regulations",
+                "url": "https://www.lancaster.ac.uk/student-based-services/exams-and-assessment/regulations/"
+              }
+            ]
+          },
+          "assessments": [
+            {
+              "name": "Coursework",
+              "viewType": "Student",
+              "priority": 1,
+              "items": [
+                {
+                  "lusiWorkId": "28002",
+                  "name": "Practical Assessment 1",
+                  "dueDate": "2020-02-14T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                },
+                {
+                  "lusiWorkId": "28003",
+                  "name": "Practical Assessment 2",
+                  "dueDate": "2020-03-13T16:00:00Z",
+                  "isElective": false,
+                  "isSubmittedMoodle": false,
+                  "isSubmittedLusi": false,
+                  "hasTurnItIn": false,
+                  "moodleUrl": null,
+                  "submissions": null,
+                  "graded": 0
+                }
+              ],
+              "noAssessmentStructureMessage": null
+            }
+          ],
+          "learningSpaces": [
+            {
+              "name": "19/20: SCC.363: Security and Risk [1]",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28320",
+              "activityId": 28320,
+              "priority": 1,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            },
+            {
+              "name": "19/20: SCC UG General 3rd Year",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28325",
+              "activityId": 28325,
+              "priority": 30,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        }
+      ],
+      "key": "course"
+    },
+    {
+      "name": "Your Department Spaces",
+      "items": [
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Hello Future: Careers",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Hello Future: Careers",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=4855",
+              "activityId": 4855,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Student Only Area (Computing and Communications)",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Student Only Area (Computing and Communications)",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=17306",
+              "activityId": 17306,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        }
+      ],
+      "key": "dept"
+    },
+    {
+      "coursesCompleted": 1,
+      "summary": "<p>The Digital skills certificate is a great way of improving your digital skills across a range of areas. For students, it goes on your HEAR\r\n(Higher Education Achievement Report) when you graduate, shows off your skills to prospective employers and is part of the Lancaster award\r\n  and iDEA award. To gain the Digital skills certificate, you must pass at least one course from each of the categories below.</p>\r\n<div data-node-type=\"line\" id=\"magicdomid74\">\r\n  <p></p>\r\n  <ul>\r\n    <li><a href=\"https://answers.lancaster.ac.uk/x/ppiHAQ\" target=\"_blank\">About the Digital skills certificate</a>\r\n    </li>\r\n    <li><a href=\"https://modules.lancaster.ac.uk/badges/mybadges.php\" target=\"_blank\">View passed courses and export badges</a>\r\n    </li>\r\n    <li><a href=\"https://answers.lancaster.ac.uk/x/JXPe\" target=\"_blank\">Redeem Lancaster award, iDEA award or Lancaster professional programme credit</a>\r\n    </li>\r\n    <li><a href=\"https://modules.lancaster.ac.uk/mod/forum/view.php?id=807119\" target=\"_blank\">Latest updates and announcements</a>\r\n    </li>\r\n  </ul>\r\n  <p></p>\r\n</div>",
+      "name": "Digital Skills Certificate",
+      "items": [
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Communication, Collaboration and Participation",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": null,
+          "appraisalSpace": null,
+          "skillsSpace": {
+            "name": "Communication, Collaboration and Participation",
+            "url": "https://modules.lancaster.ac.uk/course/view.php?id=12955",
+            "activityId": 12955,
+            "instanceKey": "lancs",
+            "summary": "<p></p>\n<div title=\"Page 1\">\n  <div>\n    <div>\n      <p>Using digital technologies and social networks to improve engagement with others, socially and professionally.\n        <br>\n      </p>\n      <p>The following courses are available in this category:</p></div></div></div><ul><li><div><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1187365\">Managing files with Microsoft OneDrive</a></div></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=719491\">Online surveys with Qualtrics</a></li>\n  <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=571914\" style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\">Email and calendars with Microsoft Outlook</a></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=921897\" target=\"_blank\">Blogging with WordPress</a></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1186196\">Communication and collaboration with Microsoft Teams</a></li>\n</ul>\n<p></p>",
+            "completed": false
+          }
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Creation and Innovation",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": null,
+          "appraisalSpace": null,
+          "skillsSpace": {
+            "name": "Creation and Innovation",
+            "url": "https://modules.lancaster.ac.uk/course/view.php?id=12954",
+            "activityId": 12954,
+            "instanceKey": "lancs",
+            "summary": "<p></p>\n<div title=\"Page 1\">\n  <div>\n    <div>\n      <p>Designing and producing new content, information and data through innovative application of technology.\n        <br>\n      </p>\n      <p>The following courses are available in this category:&nbsp;</p>\n      <ul>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=670709\">Creating accessible resources</a>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=632586\">Introduction to computational mathematics in Matlab</a>\n          <br>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=660717\">Image editing with paint.net</a>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=823494\">Presenting information with visual impact</a>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=479399\">Video production with Adobe Premiere Rush and Adobe Premiere Pro</a>&nbsp;\n          <br>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=979278\">Writing documents with LaTeX</a>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1019750\">Statistical programming with RStudio</a>\n        </li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1142038\">Introduction to programming in Python</a></li>\n        <li><a href=\"mailto:webmaster@lancaster.ac.uk?CC=iss-training@lancaster.ac.uk&amp;Subject=Access%20to%20CMS%20online%20training&amp;Body=Please%20can%20I%20have%20access%20to%20the%20CMS%20online%20training.\">Web editing with Terminalfour CMS (For staff by request)</a></li>\n      </ul>\n      <p></p>\n    </div>\n  </div>\n</div>\n<p></p>",
+            "completed": false
+          }
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Identity and Wellbeing",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": null,
+          "appraisalSpace": null,
+          "skillsSpace": {
+            "name": "Identity and Wellbeing",
+            "url": "https://modules.lancaster.ac.uk/course/view.php?id=12953",
+            "activityId": 12953,
+            "instanceKey": "lancs",
+            "summary": "<div title=\"Page 1\">\n  <div>\n    <div>Understanding the potential impact of digital technologies on health, wellbeing and individual identity.\n      <br>\n    </div>\n    <div><span><div title=\"Page 1\"><div><br></div><div>The following courses are available in this category:</div><div><ul><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=476542\" style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\">Online networking with LinkedIn</a><br></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=823495\">Digital wellbeing</a></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=852449\">Intercultural competencies</a></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=479311\">Professional use of social media</a></li></ul></div></div></span>\n    </div>\n  </div>\n</div>\n<p></p>",
+            "completed": false
+          }
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Information, Data and Media",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": null,
+          "appraisalSpace": null,
+          "skillsSpace": {
+            "name": "Information, Data and Media",
+            "url": "https://modules.lancaster.ac.uk/course/view.php?id=12952",
+            "activityId": 12952,
+            "instanceKey": "lancs",
+            "summary": "<p>Managing, evaluating, assimilating and using information and data in a range of media.\n  <br>\n</p>\n<div title=\"Page 1\">\n  <p>The following courses are available in this category:</p><ul><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=630136\">Analysing and presenting data with Microsoft Excel</a></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=655218\">Finding academic resources with OneSearch</a>&nbsp;</li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=475872\" style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\">Information security</a><br>\n    </li>\n    <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=478905\" style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\">Statistical data analysis with SPSS</a>\n      <br>\n    </li>\n    <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=853071\" target=\"_blank\">PDF editing with Adobe Acrobat</a></li>\n  </ul>\n  <p></p>\n</div>",
+            "completed": true
+          }
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Learning and Self Development",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": null,
+          "appraisalSpace": null,
+          "skillsSpace": {
+            "name": "Learning and Self Development",
+            "url": "https://modules.lancaster.ac.uk/course/view.php?id=12956",
+            "activityId": 12956,
+            "instanceKey": "lancs",
+            "summary": "<p></p>\n<div title=\"Page 1\">\n  <div>\n    <div>\n      <p>Having the capacity to identify and participate in digital learning opportunities.\n        <br>\n      </p>\n      <p>The following courses are available in this category:</p>\n      <p></p>\n      <ul>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=594500\" style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\">Formatting documents with Word</a>\n          <br>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=629086\">Mind mapping with MindJet</a>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1082287\">Introduction to referencing and reference management tools</a>\n          <br>\n          <div></div>\n        </li>\n        <li>\n          <div><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1032003\">Digital project management</a>\n          </div>\n          <div></div>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=796203\">Introduction to Moodle (For staff)</a>\n          <br>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1007901\" target=\"_blank\">Course administration in Moodle (For staff)</a>\n          <br>\n        </li>\n        <li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1052842\" target=\"_blank\">Online assessment and feedback for assignments in Moodle (for staff)</a></li><li><a href=\"https://modules.lancaster.ac.uk/mod/page/view.php?id=1076798\" title=\"Page\">Creating interactive learning materials with Xerte</a></li>\n      </ul>\n    </div>\n\n    <p></p>\n  </div>\n</div>\n\n<p></p>",
+            "completed": false
+          }
+        }
+      ],
+      "key": "digitalSkills"
+    },
+    {
+      "name": "Your Other Learning Spaces",
+      "items": [
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "FST MASH (Maths & Stats Hub)",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "FST MASH (Maths & Stats Hub)",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=12807",
+              "activityId": 12807,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Study Abroad",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Study Abroad",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=270",
+              "activityId": 270,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": null,
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        }
+      ],
+      "key": "other"
+    },
+    {
+      "name": "Open Access Courses",
+      "items": [
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "CETAD TEMPLATE- Work-based Projects: Design and Delivery",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "CETAD TEMPLATE- Work-based Projects: Design and Delivery",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=26190",
+              "activityId": 26190,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "<div><p>Archived site for W-B Project support</p></div>",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "English Language Development",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "English Language Development",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=22878",
+              "activityId": 22878,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "FASS Maths and Stats Hub",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "FASS Maths and Stats Hub",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28780",
+              "activityId": 28780,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "FHM Maths and Stats Hub",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "FHM Maths and Stats Hub",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28781",
+              "activityId": 28781,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "First Aid Needs Assessment (Staff only)",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "First Aid Needs Assessment (Staff only)",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=18436",
+              "activityId": 18436,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Human Performance Laboratory",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Human Performance Laboratory",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=26262",
+              "activityId": 26262,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "<div><p><span style=\"font-size: x-small\">Icons made by <a href=\"https://www.flaticon.com/authors/freepik\">https://www.flaticon.com/authors/freepik</a></span><br></p></div>",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "LEC Skills Development Programme",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "LEC Skills Development Programme",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=27418",
+              "activityId": 27418,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "LEC Wellbeing Information - PGR Students",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "LEC Wellbeing Information - PGR Students",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28847",
+              "activityId": 28847,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "LEC Wellbeing Information - Staff",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "LEC Wellbeing Information - Staff",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=28848",
+              "activityId": 28848,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Physics Projects",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Physics Projects",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=26178",
+              "activityId": 26178,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        },
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Transitions Team",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Transitions Team",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=27552",
+              "activityId": 27552,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": false
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        }
+      ],
+      "key": "openAccess"
+    },
+    {
+      "name": "Learning Development",
+      "items": [
+        {
+          "lusiYearId": null,
+          "lusiCourseId": null,
+          "lusiCohortId": 0,
+          "name": "Learning Development FST",
+          "url": null,
+          "isAudit": false,
+          "courseInfo": null,
+          "assessments": null,
+          "learningSpaces": [
+            {
+              "name": "Learning Development FST",
+              "url": "https://modules.lancaster.ac.uk/course/view.php?id=282",
+              "activityId": 282,
+              "priority": 2,
+              "instanceKey": "lancs",
+              "summary": "",
+              "showForumsAnnouncements": true
+            }
+          ],
+          "appraisalSpace": null,
+          "skillsSpace": null
+        }
+      ],
+      "key": "learnDev"
+    }
+  ]
+}
